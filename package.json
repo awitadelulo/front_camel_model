@@ -1,5 +1,5 @@
 {
-  "homepage": "https://LianaD26.github.io/CAMEL_Model_percentages",
+  "homepage": "https://awitadelulo.github.io/front_camel_model",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://awitadelulo.github.io/front_camel_model"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
