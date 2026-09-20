@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://awitadelulo.github.io/Front_camel_model"
+    "homepage": "https://awitadelulo.github.io/front_camel_model"
   },
   "eslintConfig": {
     "extends": [
