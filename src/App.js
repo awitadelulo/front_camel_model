@@ -5,9 +5,11 @@ import CamelValue from "./pages/camels_value/camel_value";
 import "./App.css";
 import RankingCamel from "./pages/rankingCamel/RankingCamel";
 
+const basename = process.env.REACT_APP_BASENAME || "/";
+
 function App() {
     return (
-        <Router basename={process.env.NODE_ENV === "production" ? "/front_camel_model" : "/"}>
+        <Router basename={basename}>
             <div className="App">
                 <Routes>
                     <Route path="/" element={<Home />} />
